@@ -1,0 +1,44 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv_*/
+venv/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML artifacts / outputs
+outputs/
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.npz
+*.npy
+
+# Datasets and assets
+/data/
+/assets/
+
+# Image outputs
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
